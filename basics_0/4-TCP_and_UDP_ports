@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-netstat -a | grep LISTENING
+netstat -a -tuln -p 
+netstat -a -p | grep LISTENING
