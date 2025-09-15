@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# i use netstat for display listening port
 sudo netstat -tulnp
 sudo netstat -lxp
