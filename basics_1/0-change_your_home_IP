@@ -3,4 +3,4 @@
 cp /etc/hosts /etc/hosts.old
 sed -i 's/127.0.0.1/127.0.0.2/' /etc/hosts
 sed -i '/facebook\.com/d' /etc/hosts
-echo 'facebook.com  8.8.8.8' | sudo tee -a /etc/hosts > /dev/null
+echo 'facebook.com  8.8.8.8' | sudo tee -a /etc/hosts
